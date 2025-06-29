@@ -205,10 +205,10 @@ export default function AboutPage() {
                 <CardContent className="p-8">
                   <img
                     src="/placeholder.svg?height=120&width=120"
-                    alt="Sarah Johnson"
+                    alt="Partheeb Mostafiz"
                     className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                   />
-                  <h3 className="text-xl font-semibold mb-1">Sarah Johnson</h3>
+                  <h3 className="text-xl font-semibold mb-1">Partheeb Mostafiz</h3>
                   <p className="text-green-600 mb-3">CEO & Co-Founder</p>
                   <p className="text-gray-600 text-sm">
                     Former e-commerce executive with 10+ years experience building consumer platforms.
@@ -220,28 +220,13 @@ export default function AboutPage() {
                 <CardContent className="p-8">
                   <img
                     src="/placeholder.svg?height=120&width=120"
-                    alt="Michael Chen"
+                    alt="Md.Abu Sufian"
                     className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                   />
-                  <h3 className="text-xl font-semibold mb-1">Michael Chen</h3>
+                  <h3 className="text-xl font-semibold mb-1">Md.Abu Sufian</h3>
                   <p className="text-blue-600 mb-3">CTO & Co-Founder</p>
                   <p className="text-gray-600 text-sm">
                     Tech leader passionate about using technology to create positive social impact.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="text-center hover:shadow-lg transition-shadow">
-                <CardContent className="p-8">
-                  <img
-                    src="/placeholder.svg?height=120&width=120"
-                    alt="Emily Rodriguez"
-                    className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-                  />
-                  <h3 className="text-xl font-semibold mb-1">Emily Rodriguez</h3>
-                  <p className="text-purple-600 mb-3">Head of Sustainability</p>
-                  <p className="text-gray-600 text-sm">
-                    Environmental advocate ensuring our platform promotes responsible consumption.
                   </p>
                 </CardContent>
               </Card>
