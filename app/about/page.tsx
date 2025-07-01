@@ -204,7 +204,7 @@ export default function AboutPage() {
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-8">
                   <img
-                    src="/images/partheeb.jpg?height=120&width=120"
+                    src="/images/partheeb.png?height=120&width=120"
                     alt="Partheeb Mostafiz"
                     className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                   />
@@ -219,7 +219,7 @@ export default function AboutPage() {
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-8">
                   <img
-                    src="/images/sufian.jpg?height=120&width=120"
+                    src="/images/sufian.png?height=120&width=120"
                     alt="Md.Abu Sufian"
                     className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                   />
