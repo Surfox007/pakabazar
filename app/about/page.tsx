@@ -211,7 +211,7 @@ export default function AboutPage() {
                   <h3 className="text-xl font-semibold mb-1">Partheeb Mostafiz</h3>
                   <p className="text-green-600 mb-3">CEO & Co-Founder</p>
                   <p className="text-gray-600 text-sm">
-                    Suppply chain enthusiast and wants building consumer platforms.
+                    Suppply chain enthusiast and wants to build consumer platforms.
                   </p>
                 </CardContent>
               </Card>
