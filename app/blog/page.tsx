@@ -103,7 +103,7 @@ export default function BlogPage() {
         <section className="bg-gradient-to-r from-green-50 to-blue-50 py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <Badge className="mb-4 bg-green-100 text-green-800">GreenPrice Blog</Badge>
+              <Badge className="mb-4 bg-green-100 text-green-800">PakaBazar Blog</Badge>
               <h1 className="text-5xl font-bold text-gray-900 mb-6">Smart Shopping Insights</h1>
               <p className="text-xl text-gray-600 mb-8">
                 Discover tips, trends, and strategies to shop smarter, save more, and make conscious purchasing
