@@ -8,7 +8,7 @@ import { DevelopmentTicker } from "@/components/development-ticker"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "GreenPrice - Find the Best Prices",
+  title: "Pakabazar - Find the Best Prices",
   description: "Compare prices and find the best deals online",
     generator: 'v0.dev'
 }

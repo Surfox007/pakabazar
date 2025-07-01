@@ -204,14 +204,14 @@ export default function AboutPage() {
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-8">
                   <img
-                    src="/placeholder.svg?height=120&width=120"
+                    src="/images/partheeb.jpg?height=120&width=120"
                     alt="Partheeb Mostafiz"
                     className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                   />
                   <h3 className="text-xl font-semibold mb-1">Partheeb Mostafiz</h3>
                   <p className="text-green-600 mb-3">CEO & Co-Founder</p>
                   <p className="text-gray-600 text-sm">
-                    Former e-commerce executive with 10+ years experience building consumer platforms.
+                    Suppply chain enthusiast and wants building consumer platforms.
                   </p>
                 </CardContent>
               </Card>
@@ -219,7 +219,7 @@ export default function AboutPage() {
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-8">
                   <img
-                    src="/placeholder.svg?height=120&width=120"
+                    src="/images/sufian.jpg?height=120&width=120"
                     alt="Md.Abu Sufian"
                     className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                   />
