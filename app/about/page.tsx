@@ -15,7 +15,7 @@ export default function AboutPage() {
         <section className="bg-gradient-to-r from-green-50 to-blue-50 py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <Badge className="mb-4 bg-green-100 text-green-800">About GreenPrice</Badge>
+              <Badge className="mb-4 bg-green-100 text-green-800">About PakaBazar</Badge>
               <h1 className="text-5xl font-bold text-gray-900 mb-6">Revolutionizing How You Shop Online</h1>
               <p className="text-xl text-gray-600 mb-8">
                 We're on a mission to make smart shopping accessible to everyone while creating positive impact for our
@@ -42,7 +42,7 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  At GreenPrice, we believe everyone deserves access to the best prices without compromising on quality
+                  At PakaBazar, we believe everyone deserves access to the best prices without compromising on quality
                   or values. We're building a platform that not only saves you money but also promotes sustainable
                   shopping practices.
                 </p>
