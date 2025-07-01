@@ -18,8 +18,7 @@ export function VideoSection() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Our Story & Mission</h2>
           <p className="text-green-100 text-lg mb-12 max-w-2xl mx-auto">
-            Discover how GreenPrice is revolutionizing the way people shop online, making smart purchasing decisions
-            accessible to everyone while creating positive impact.
+            Discover how PakaBazar is revolutionizing the way people shop online, making smart purchasing decisions accessible to everyone while creating positive impact.
           </p>
 
           {/* Video Container */}
@@ -51,7 +50,7 @@ export function VideoSection() {
                 {/* Video Info Overlay */}
                 <div className="absolute bottom-4 left-4 right-4">
                   <div className="bg-black/50 backdrop-blur-sm rounded-lg p-4 text-left">
-                    <h3 className="text-white font-semibold text-lg mb-1">The GreenPrice Journey</h3>
+                    <h3 className="text-white font-semibold text-lg mb-1">The PakaBazar Journey</h3>
                     <p className="text-gray-300 text-sm">Learn about our mission to democratize smart shopping</p>
                     <div className="flex items-center gap-2 mt-2 text-xs text-gray-400">
                       <span>Duration: 3:42</span>

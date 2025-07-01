@@ -10,13 +10,12 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">GP</span>
+                <span className="text-white font-bold text-sm">PB</span>
               </div>
-              <span className="text-xl font-bold text-green-400">GreenPrice</span>
+              <span className="text-xl font-bold text-green-400">Pakabazar</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Your trusted companion for finding the best prices and deals online. Save money and shop smarter with
-              GreenPrice.
+              Your trusted companion for finding the best prices and deals online. Save money and shop smarter with PakaBazar.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-400 hover:text-white">
@@ -67,36 +66,7 @@ export function Footer() {
           </div>
 
           {/* Categories */}
-          <div>
-            <h3 className="font-semibold mb-4">Categories</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Electronics
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Fashion
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Home & Garden
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Sports
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Books
-                </Link>
-              </li>
-            </ul>
-          </div>
+          
 
           {/* Support */}
           <div>
@@ -132,7 +102,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2024 GreenPrice. All rights reserved. Built with ❤️ for smart shoppers.</p>
+          <p className="text-gray-400">© 2024 Pakabazar. All rights reserved. Built with ❤️ for smart shoppers.</p>
         </div>
       </div>
     </footer>
