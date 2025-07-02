@@ -53,8 +53,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Mobile App
+                <Link href="/drop-off" className="text-gray-400 hover:text-white">
+                  Drop Off
                 </Link>
               </li>
               <li>

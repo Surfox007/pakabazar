@@ -6,9 +6,11 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { useCart } from "@/lib/cart-context"
+import { useTrashCredit } from "@/lib/trash-credit-context"
 
 export function Header() {
   const { state } = useCart()
+  const { credits } = useTrashCredit()
 
   return (
     <header className="border-b bg-white sticky top-0 z-50">
@@ -32,7 +34,7 @@ export function Header() {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Link href="/products" className="text-gray-600 hover:text-green-600">
+            <Link href="/categories" className="text-gray-600 hover:text-green-600">
               Products
             </Link>
             <Link href="/blog" className="text-gray-600 hover:text-green-600">
@@ -65,8 +67,19 @@ export function Header() {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
+                <div className="px-3 py-2 border-b">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm font-medium">Trash Credits</span>
+                    <span className="text-sm font-bold text-green-600">{credits}</span>
+                  </div>
+                </div>
                 <DropdownMenuItem>Profile</DropdownMenuItem>
                 <DropdownMenuItem>Settings</DropdownMenuItem>
+                <Link href="/drop-off" passHref legacyBehavior>
+                  <DropdownMenuItem asChild>
+                    <a>Drop Off Packages</a>
+                  </DropdownMenuItem>
+                </Link>
                 <DropdownMenuItem>Sign Out</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
